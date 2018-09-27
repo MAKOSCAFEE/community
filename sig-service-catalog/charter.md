@@ -16,6 +16,7 @@ resources.
 See the [service-catalog SIG entry](https://github.com/kubernetes/community/tree/master/sig-service-catalog).
 
 This SIG’s main goals are:
+
 - Support, and adhere to, the Platform requirements of the [OSBAPI
   specification](https://github.com/openservicebrokerapi/servicebroker/blob/master/spec.md).
 - Provide a UX for Kubernetes users that is consistent with both the OSB API
@@ -54,14 +55,17 @@ This SIG’s main goals are:
 ### Out of scope
 
 The following, non-exhaustive, items are out of scope:
+
 - Operation of OSBAPI Service Brokers.
 
 ## Roles
+
 This SIG's charter deviates from the
 [sig-governance](https://github.com/kubernetes/community/blob/master/committee-steering/governance/sig-governance.md)
 roles. We do not have the Tech Lead role, and have a honorary Emeritus Chair role.
 
 - [Maintainers](https://github.com/orgs/kubernetes-incubator/teams/maintainers-service-catalog/members)
+
   - Maintainer is equivalent to the standard [Kubernetes definition of
     Approver](https://github.com/kubernetes/community/blob/master/community-membership.md#approver).
   - Responsible for reviewing pull requests, and approving pull requests for merge.
@@ -75,6 +79,7 @@ roles. We do not have the Tech Lead role, and have a honorary Emeritus Chair rol
     lazy two-thirds resolution amongst the chairs.
 
 - Chairs
+
   - Chairs are expected to perform the role of maintainer, in addition to their chair responsibilities.
   - Chairs are listed in our [SIG
     definition](https://github.com/kubernetes/community/tree/master/sig-service-catalog#chairs).
@@ -98,6 +103,7 @@ roles. We do not have the Tech Lead role, and have a honorary Emeritus Chair rol
 
 - Emeritus Chairs ([Inspired by the Helm
   Project](http://technosophos.com/2018/01/11/introducing-helm-emeritus-core-maintainers.html))
+
   - A chair who steps down may choose to take an Emeritus Chair title. This
     confers honor on the recipient and allows them to remain associated with the
     SIG in acknowledgement of their significant contributions.
@@ -106,7 +112,7 @@ roles. We do not have the Tech Lead role, and have a honorary Emeritus Chair rol
     architectural issues, or review pull requests.
   - They are [listed in our documentation](https://svc-cat.io/community/#leadership)
     as Emeritus Chairs, and we will continue to invite them to participate in
-    related events, such as KubeCon.
+    related events, such as KubeCon/CloudNativeCon.
 
 - Security Contacts
   - Are a contact point for the Product Security Team to reach out to for
@@ -121,10 +127,10 @@ roles. We do not have the Tech Lead role, and have a honorary Emeritus Chair rol
 ## Organizational management
 
 - SIG meets every week on Zoom at 1 PM PST on Mondays
-    - Agenda
-      [here](https://docs.google.com/document/d/17xlpkoEbPR5M6P5VDzNx17q6-IPFxKyebEekCGYiIKM/edit#).
-    - Anyone is free to add new agenda items to the doc.
-    - Recordings of the calls are made available [here](https://goo.gl/ZmLNX9).
+  - Agenda
+    [here](https://docs.google.com/document/d/17xlpkoEbPR5M6P5VDzNx17q6-IPFxKyebEekCGYiIKM/edit#).
+  - Anyone is free to add new agenda items to the doc.
+  - Recordings of the calls are made available [here](https://goo.gl/ZmLNX9).
 - SIG members explicitly representing the group at conferences (SIG progress
   reports, deep dives, etc.) should make their slides available for perusal and
   feedback at least 2 week in advance.
@@ -137,6 +143,7 @@ roles. We do not have the Tech Lead role, and have a honorary Emeritus Chair rol
     members can meet to discuss and solve problems for our SIG.
 
 ### Project management
+
 - [Milestones](https://github.com/kubernetes-incubator/service-catalog/milestones)
   are defined by SIG maintainers.
 - Anyone is free to request a discussion of the milestones/plans during
@@ -150,8 +157,8 @@ roles. We do not have the Tech Lead role, and have a honorary Emeritus Chair rol
   [here](https://github.com/kubernetes-incubator/service-catalog/wiki/Release-Process).
 - Anyone can request to work on an issue by commenting on it with `#dibs`.
 
-
 ### Technical processes
+
 - All technical decisions are made either through issues, pull requests or
   discussions during the weekly SIG meeting. Major decisions should be
   documented in an issue or pull request.

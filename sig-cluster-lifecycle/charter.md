@@ -9,7 +9,7 @@ SIG Cluster Lifecycle’s objective is to simplify creation, configuration, upgr
 The following topics fall under ownership of this SIG:
 
 - Improving the Kubernetes user experience for cluster administration.
-- Tools that assist in the creation, configuration, upgrade, downgrade, and teardown of Kubernetes control plane components. 
+- Tools that assist in the creation, configuration, upgrade, downgrade, and teardown of Kubernetes control plane components.
 - Portable APIs for provisioning, configuration, upgrade/downgrade, and de-provisioning of nodes.
 - Tools that assist in management of configuration of Kubernetes components.
 - The configuration of core add-ons that are required for cluster bootstrapping.
@@ -31,10 +31,10 @@ The following topics fall under ownership of this SIG:
 ### Out of scope
 
 - Networking related issues (see [sig-network](../sig-network)).
-- User interface, or user experience, issues other than cluster bootstrapping or management (see [sig-ui](../sig-ui) and  [sig-cli](../sig-cli)).
+- User interface, or user experience, issues other than cluster bootstrapping or management (see [sig-ui](../sig-ui) and [sig-cli](../sig-cli)).
 - Node related issues (see [sig-node](../sig-node)).
 - Kubernetes control plane issues:
-   - Control plane component related issues (see [sig-apimachinery](../sig-apimachinery)).
+  - Control plane component related issues (see [sig-apimachinery](../sig-apimachinery)).
 
 ## Roles and Organization Management
 
@@ -46,15 +46,15 @@ and opts-in to updates and modifications to [sig-governance].
 - Selecting features for a given milestone.
 - Hosting the weekly SIG meeting, ensure that recordings are uploaded in a timely fashion.
 - Ensuring that the breakout sessions the SIG hosts during the week have chairs.
-- Organizing SIG sessions at KubeCon events (intro / deep dive sessions).
+- Organizing SIG sessions at KubeCon/CloudNativeCon events (intro / deep dive sessions).
 - Creating roadmaps for a given year or release, or reviewing and approving technical implementation plans (e.g. KEPs) in coordination with both SIG Cluster Lifecycle contributors and other SIGs.
 
 ### Deviations from [sig-governance]
 
 - As SIG cluster lifecycle contains a number of subprojects, the SIG has empowered subproject leads with a number of additional responsibilities, including but not limited to:
-   * Releases: The subproject owners are responsible for determining the subproject release cadence, producing releases, and communicating releases with SIG Release and SIG Cluster Lifecycle.
-   * Backlog grooming: The subproject owners are responsible for ensuring that the issues for the subproject are correctly associated with milestones and that bugs are triaged in a timely manner.
-   * PR timeliness: The subproject owners are responsible for ensuring that active pull requests for the subproject are addressed in a timely manner.
+  - Releases: The subproject owners are responsible for determining the subproject release cadence, producing releases, and communicating releases with SIG Release and SIG Cluster Lifecycle.
+  - Backlog grooming: The subproject owners are responsible for ensuring that the issues for the subproject are correctly associated with milestones and that bugs are triaged in a timely manner.
+  - PR timeliness: The subproject owners are responsible for ensuring that active pull requests for the subproject are addressed in a timely manner.
 
 ### Subproject Creation
 
@@ -62,4 +62,4 @@ and opts-in to updates and modifications to [sig-governance].
 
 [sig-governance]: https://github.com/kubernetes/community/blob/master/committee-steering/governance/sig-governance.md
 [sigs.yaml]: https://github.com/kubernetes/community/blob/master/sigs.yaml
-[Kubernetes Charter README]: https://github.com/kubernetes/community/blob/master/committee-steering/governance/README.md
+[kubernetes charter readme]: https://github.com/kubernetes/community/blob/master/committee-steering/governance/README.md

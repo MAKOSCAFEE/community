@@ -1,10 +1,10 @@
 # Non-code Contributions
 
-*This section is new and in progress. Expect this document to change often.*
+_This section is new and in progress. Expect this document to change often._
 
-*If you are interested in helping define and structure this work, [check the weekly meeting notes](https://docs.google.com/document/d/1gdFWfkrapQclZ4-z4Lx2JwqKsJjXXUOVoLhBzZiZgSk/edit#) for information on how to get involved. You can also find us in the SIG Contributor Experience [Slack channel](https://kubernetes.slack.com/messages/sig-contribex).*
+_If you are interested in helping define and structure this work, [check the weekly meeting notes](https://docs.google.com/document/d/1gdFWfkrapQclZ4-z4Lx2JwqKsJjXXUOVoLhBzZiZgSk/edit#) for information on how to get involved. You can also find us in the SIG Contributor Experience [Slack channel](https://kubernetes.slack.com/messages/sig-contribex)._
 
-*All contributors welcome, new and old!*
+_All contributors welcome, new and old!_
 
 ### What is this?
 
@@ -15,6 +15,7 @@ This list is meant to be used by both new contributors looking for a good entran
 Are you interested in any of the roles below? Come chat with us [on Slack](https://kubernetes.slack.com/messages/sig-contribex)!
 
 #### Project general roles
+
 These are roles that either span the project as a whole, or span several areas of the project. Most of the roles below can be considered "good-first-roles".
 
 - Community education
@@ -56,6 +57,7 @@ These are roles that either span the project as a whole, or span several areas o
   - Staffing Kubernetes booths at conferences
 
 #### SIG-specific roles
+
 These are roles that are important to each and every SIG within the Kubernetes project. If you are interested in a specific topic within the project, you can contribute in several different ways for that specific SIG.
 
 - Documentation
@@ -73,9 +75,10 @@ These are roles that are important to each and every SIG within the Kubernetes p
   - Editing PR text: release note, statement
 - Events
   - Organizing/helping run Face-to-Face meetings for SIGs/WGs/subprojects
-  - Putting together SIG Intros & Deep-dives for Kubecon
+  - Putting together SIG Intros & Deep-dives for KubeCon/CloudNativeCon
 
 #### Non-Code Tasks in Primarily-Code roles
+
 These are roles that are not code-based, but require knowledge of either general coding, or specific domain knowledge of the Kubernetes code base.
 
 - Documentation
@@ -85,6 +88,7 @@ These are roles that are not code-based, but require knowledge of either general
 - Github management (Tags, repos, etc)
 
 #### Post-Code Roles
+
 These are roles that are not code-based, but require knowledge of either general coding, or specific domain knowledge of the Kubernetes code base.
 
 - Technical project leadership

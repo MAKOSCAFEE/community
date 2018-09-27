@@ -1,5 +1,4 @@
-Kubernetes Postmortem: kubeadm 1.6.0 release
-============================================
+# Kubernetes Postmortem: kubeadm 1.6.0 release
 
 **Incident Date:** 2017-03-28
 
@@ -68,7 +67,7 @@ initialize a new cluster with the 1.6.0 release
     Release Czar, 1.6.0-rc.1 and 1.6.0 were released without manual end-to-end
     testing of kubeadm and contained the regression.
 
-- There was a lot of rushing to get the release ready before KubeCon EU, causing
+- There was a lot of rushing to get the release ready before KubeCon/CloudNativeCon EU, causing
   a shortened timeframe for RC and release, lowered bandwidth for SIG members,
   and the last SIG meeting before the release to be cancelled, which decreased
   communication.
@@ -114,7 +113,7 @@ initialize a new cluster with the 1.6.0 release
 **Action Items:**
 
 | **Item**                                                                                                                                                                      | **Type** | **Owner** | **Issue**                                                                |
-|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------|-----------|--------------------------------------------------------------------------|
+| ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------- | --------- | ------------------------------------------------------------------------ |
 | Add end-to-end kubeadm postsubmit tests for release-1.6 branch                                                                                                                | detect   | pipejakob | DONE                                                                     |
 | Add end-to-end kubeadm presubmit tests (non-blocking)                                                                                                                         | prevent  |           | [kubeadm\#250](https://github.com/kubernetes/kubeadm/issues/250)         |
 | Add end-to-end kubeadm variants that use non-third-party CNI providers, like “bridge”                                                                                         | prevent  |           | [kubeadm\#218](https://github.com/kubernetes/kubeadm/issues/218)         |
